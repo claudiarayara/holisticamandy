@@ -1,0 +1,24 @@
+.banner-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+    width: 100%;
+}
+
+.banner-content {
+    position: absolute;
+    padding: 4em;
+    text-align: center;
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+}
+
+@media (max-width: 920px) {
+    .banner-content {
+        padding: 1em;
+    }
+}

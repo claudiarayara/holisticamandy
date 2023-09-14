@@ -1,0 +1,22 @@
+footer {
+    background: var(--vermelho);
+    color: var(--branco);
+    padding: 1em;
+    text-align: center;
+    font-size: 16px;
+}
+
+.footer--destaque {
+    font-weight: 700;
+}
+
+.footer--destaque a {
+    text-decoration: none;
+    color: var(--branco);
+    transition: color 0.5s ease;
+}
+  
+/* Define a cor final ao passar o mouse */
+.footer--destaque a:hover {
+    color: #E9367B;
+  }
