@@ -1,0 +1,33 @@
+@import url(styles/banner.css);
+@import url(styles/titulos.css);
+@import url(styles/video.css);
+@import url(styles/carousel.css);
+@import url(styles/botao.css);
+@import url(styles/conteudo.css);
+@import url(styles/rodape.css);
+
+:root {
+    --vermelho: #6a0606;
+    --branco: #FEFEFE;
+    --cinzinha: #f1f0f2;
+    --cinza: #a39292;
+    --chumbo: #393536;
+    --fonte-principal: "Montserrat";
+    --fonte-destaque: "Baskervville";
+}
+
+body {
+    font-family: var(--fonte-principal);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/* #meuConteudo {
+    display: none;
+} */
+
+@media (max-width: 920px) {
+    body {
+        font-size: 16px;
+    }
+}
