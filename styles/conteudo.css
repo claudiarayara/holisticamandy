@@ -1,0 +1,189 @@
+.conteudo {
+    padding: 1em;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container--conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+    text-align: center;
+    flex: 0.8;
+}
+
+.foto--casal {
+    padding: 1em;
+    text-align: center;
+}
+
+.foto--brindando {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    padding: 1em;
+}
+  
+.conteudo--container {
+    display: flex;
+    align-items: center;
+}
+
+.conteudo--container li {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.conteudo--container li::before {
+    content: "\1F52E"; /* Código Unicode para o emoji */
+    margin-right: 8px;
+}
+
+.destaque--fundovermelho {
+    background: var(--vermelho);
+}
+
+.foto--cristais {
+    padding: 2em;
+    text-align: center;
+}
+
+.saiba {
+    padding-left: 1.5em;
+}
+
+.lista li {
+    line-height: 1.5;
+    list-style-type: none;
+    padding: 0 2em 0 2em
+}
+
+
+.foto--casalfeliz {
+    text-align: center;
+    display: block;
+    padding: 0 1em;
+}
+
+.texto--justificado {
+    color: var(--branco);
+    text-align: justify;
+}
+
+.foto--ebook {
+    padding: 5em;
+    text-align: center;
+}
+
+.conteudo--ebook {
+    flex-direction: column;
+    padding: 5em;
+}
+
+.duvidas--frequentes {
+    padding: 0 10em 2em 10em;
+}
+
+.pergunta {
+    font-family: var(--fonte-principal);
+    font-size: 36px;
+    padding-top: 1em;
+}
+
+.duvidas--frequentes dt {
+    margin-bottom: 10px;
+}
+
+.duvidas--frequentes dt {
+    position: relative;
+    padding-left: 30px;
+}
+
+.duvidas--frequentes dt::before {
+    content: "✦";
+    position: absolute;
+    left: -10px;
+}
+
+.banner--texto {
+    font-size: 16px;
+}
+
+@media (max-width: 920px) {
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .foto--brindando {
+        margin-right: 0;
+    }
+
+    .foto--cristais {
+        width: 90%;
+        padding: 1em 0 1em 0;
+        margin-left: 5%;
+    }
+
+    .foto--ebook {
+        padding: 1em;
+    }
+
+    .conteudo {
+        padding: 1em 2em;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .container--conteudo {
+        width: 80% !important;
+        padding: 1em !important;
+        text-align: center !important;
+        margin: 0 auto 0 auto;
+    }
+
+    .lista li {
+        padding-left: 0;
+        padding: 0 2em 0 2em;
+    }
+
+    .saiba {
+        padding-left: 2em;
+    }
+
+    .conteudo--ebook {
+        padding: 1em 2em;
+    }
+
+    .duvidas--frequentes {
+        padding: 0 2em 2em 2em;
+    }
+
+    .pergunta {
+        font-size: 20px;
+        padding-top: 0.5em;
+        font-style: italic;
+        font-weight: 700;
+    }
+
+    .duvidas--frequentes dt::before {
+        left: 0px;
+    }
+
+    .duvidas--frequentes dt {
+        margin-bottom: 5px;
+    }
+
+    .banner--texto {
+        font-size: 10px;
+    }
+}
+  
